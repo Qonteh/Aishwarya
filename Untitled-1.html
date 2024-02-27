@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Venue Finder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Study Venue Finder</h1>
+        <input type="text" id="searchInput" placeholder="Search for a venue...">
+        <button onclick="searchVenues()">Search</button>
+    </header>
+
+    <main id="venueList">
+        <!-- Venue cards will be dynamically populated here -->
+        <div class="venue-card">
+            <h2>Venue 1</h2>
+            <p>Location: Downtown</p>
+            <p>Amenities: Wi-Fi, Quiet Environment</p>
+            <a href="classroom-details.html?id=1">View Details</a>
+        </div>
+        <!-- Add more venue cards as needed -->
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Study Venue Finder</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
